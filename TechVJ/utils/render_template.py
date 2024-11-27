@@ -1,9 +1,9 @@
 import jinja2
 from config import LOG_CHANNEL, URL
-from Techayu.bot import StreamBot
-from Techayu.utils.human_readable import humanbytes
-from Techayu.utils.file_properties import get_file_ids
-from Techayu.server.exceptions import InvalidHash
+from TechVJ.bot import StreamBot
+from TechVJ.utils.human_readable import humanbytes
+from TechVJ.utils.file_properties import get_file_ids
+from TechVJ.server.exceptions import InvalidHash
 import urllib.parse
 import logging
 import aiohttp
