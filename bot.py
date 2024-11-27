@@ -41,7 +41,7 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 from aiohttp import web
-from TechVJ.server import web_server
+from TechAyu.server import web_server
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -50,9 +50,9 @@ from TechVJ.server import web_server
 import asyncio
 from pyrogram import idle
 from plugins.clone import restart_bots
-from TechVJ.bot import StreamBot
-from TechVJ.utils.keepalive import ping_server
-from TechVJ.bot.clients import initialize_clients
+from TechAyu.bot import StreamBot
+from TechAyu.utils.keepalive import ping_server
+from TechAyu.bot.clients import initialize_clients
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -71,7 +71,7 @@ loop = asyncio.get_event_loop()
 
 async def start():
     print('\n')
-    print('Initalizing Tech VJ Bot')
+    print('Initalizing Tech Ayu Bot')
     bot_info = await StreamBot.get_me()
     StreamBot.username = bot_info.username
     await initialize_clients()
@@ -85,7 +85,7 @@ async def start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("Tech VJ Imported => " + plugin_name)
+            print("Tech Ayu Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server())
     me = await StreamBot.get_me()
@@ -100,7 +100,7 @@ async def start():
     await web.TCPSite(app, bind_address, PORT).start()
     if CLONE_MODE == True:
         await restart_bots()
-    print("Bot Started Powered By @VJ_Botz")
+    print("Bot Started Powered By @Anime_donghuo")
     await idle()
 
 # Don't Remove Credit Tg - @VJ_Botz
