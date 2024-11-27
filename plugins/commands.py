@@ -20,7 +20,7 @@ import re
 import json
 import base64
 from urllib.parse import quote_plus
-from Techayu.utils.file_properties import get_name, get_hash, get_media_file_size
+from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
