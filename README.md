@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-FILE-STORE-BOT Logo">
+  <img src="https://www.freeiconspng.com/uploads/welcome-png-hd-17.png" alt="Ayu-FILE-STORE-BOT Logo">
 </p>
 <h1 align="center">
-  VJ FILE STORE BOT
+  Ayu FILE STORE BOT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_VJ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_Ayu!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
 </p>
 
 ### Deploy Tutorial [Video Link](https://youtu.be/VxAn9VcYtQg)
@@ -49,11 +49,11 @@
 
 <b><details><summary>Tap On Me For Demo Bot</summary></b>
 
-<img src="https://graph.org/file/bb9c59043c52072e8dc93.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/295e41dfab93acf42a111.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/ccc1b6ab4967a7d155ab8.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/75db5257c39436b734b49.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/1ce62a17012ed5723aaca.jpg" alt="Bot Demo">
+<img src="[[https://www.freeiconspng.com/uploads/welcome-png-hd-17.png]]" alt="Bot Demo">
+<img src="https://www.freeiconspng.com/uploads/welcome-png-hd-17.png" alt="Bot Demo">
+<img src="https://www.freeiconspng.com/uploads/welcome-png-hd-17.png" alt="Bot Demo">
+<img src="https://www.freeiconspng.com/uploads/welcome-png-hd-17.png" alt="Bot Demo">
+<img src="https://www.freeiconspng.com/uploads/welcome-png-hd-17.png" alt="Bot Demo">
 </details>
 
 ## Command To Use Bot
