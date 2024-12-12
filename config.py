@@ -18,25 +18,25 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7847965030:AAHgb_8VNsEglhk60epc_1kKqQzbZYpyOeI 8009803348:AAGEelK-mmHaALuXxSMZgyHMfmgStb1VZOc")
+API_ID = int(environ.get("API_ID", "26107399"))
+API_HASH = environ.get("API_HASH", "8009803348")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8009803348:AAGEelK-mmHaALuXxSMZgyHMfmgStb1VZOc")
 
 PICS = (environ.get('PICS', 'https://www.freeiconspng.com/uploads/welcome-png-hd-17.png')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1685470205 5212197608').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Dream_maker1_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "cloneAnime_donghuo")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm3xSLrAn@cluster0.u7l9m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CDB_NAME = environ.get("CDB_NAME", "cloneAnime_donghua")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "Anime_donghuo")
+DB_URI = environ.get("DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm3xSLrAn@cluster0.u7l9m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "Anime_donghua")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002206233283"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
