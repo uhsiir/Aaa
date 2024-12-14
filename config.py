@@ -50,7 +50,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "5c9561ef97f6cab4545a3b5b65f893f363
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/openlinksshortner") # how to open link 
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
